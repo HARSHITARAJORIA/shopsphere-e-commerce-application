@@ -1,0 +1,28 @@
+# ------------------------------
+# IDE files
+.idea/
+*.iml
+
+# ------------------------------
+# Build folders
+**/target/
+**/build/
+
+# ------------------------------
+# Logs
+*.log
+
+# ------------------------------
+# OS files
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Auth-service sensitive files
+auth-service/src/main/resources/application.properties
+
+auth-service/.env
+
+# Optional: other service secrets
+eurekaserver/src/main/resources/application.properties
+api-gateway/src/main/resources/application.properties
